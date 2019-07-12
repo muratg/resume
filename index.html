@@ -98,7 +98,7 @@
         background-color: #ffffff;
         color: #444444;
         font-family: Verdana, Geneva, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
-        max-width: 1000px;
+        max-width: 900px;
         margin-left: auto;
         margin-right: auto;
       }
@@ -107,6 +107,7 @@
       }
       .top-level a {
         color: darkolivegreen;
+        text-decoration: none;
       }
       .header {
         text-align: center;
@@ -124,22 +125,32 @@
       }
       .main {
         margin: 20px 500px 20px 50px;
+        width: 100%;
       }
       .main .section {
         margin: 10px;
         padding: 10px;
       }
+      .main .section p {
+        padding-bottom: 3px;
+        /* width: 100%; */
+      }
+      .main .section h4 {
+        padding-bottom: 3px;
+      }
+
       .main label {
         color: darkgoldenrod;
         font-style: italic;
-        font-size: 18px;
+        /* font-size: 18px; */
       }
     </style>
     <title>Murat Girgin - Resume</title>
   </head>
   <body>
     <div class="top-level">
-      <div class="header">
+
+        <div class="header">
         <h1>Murat Girgin</h1>
         <p class="thick">
           Redmond, WA
@@ -158,33 +169,88 @@
         </p>
         <br />
       </div>
+
       <div class="intro">
-        Creative. Dependable. Naturally curious. I value customer satisfaction the most and work on achieving it through cost-effective, simple solutions.
+        Creative. Resourceful. Naturally curious. I value customer satisfaction the most and work on achieving it through cost-effective, simple solutions.
       </div>
+
       <div class="main">
+
         <h3>Experience</h3>
 
         <div class="section">
-          <p>2014-2016</p>
-          <h3><label>Senior Software Engineering Lead</label> - <span>Microsoft</span></h3>
-          <p>Managed a team of gaEngineers</p>
+            <p><b>2019 - Current</b></p>
+            <p><h4><label>Cofounder</label> - <a href="#">(Stealth startup)</a></h4></p>
+            <span>Working on a new innovative B2B SaaS solution.</span>
         </div>
+
+        <div class="section">
+            <p><b>2015 - 2019</b></p>
+            <p><h4><label>Principal Software Engineering Manager</label> - <a href="https://microsoft.com">Microsoft</a></h4></p>
+            <span><b>DevDiv.</b> Responsible for ASP.NET Core.</span>
+        </div>
+
+
+        <div class="section">
+            <p><b>2013 - 2015</b></p>
+            <p><h4><label>Senior Engineering Manager</label> - <a href="https://microsoft.com">Microsoft</a></h4></p>
+            <span><b>DevDiv.</b> Responsible for Entity Framework.</span>
+        </div>
+
+        <div class="section">
+            <p><b>2011 - 2013</b></p>
+            <p><h4><label>Senior Test Lead</label> - <a href="https://microsoft.com">Microsoft</a></h4></p>
+            <span><b>Azure - App Service.</b> Responsible for App Service components.</span>
+        </div>
+
+        <div class="section">
+            <p><b>2009 - 2011</b></p>
+            <p><h4><label>Senior Test Lead</label> - <a href="https://microsoft.com">Microsoft</a></h4></p>
+            <span><b>Azure - RDFE.</b> Responsible for Azure Resource Management APIs that span compute, storage and networking.</span>
+        </div>
+
+        <div class="section">
+            <p><b>2006 - 2009</b></p>
+            <p><h4><label>Test Lead 2</label> - <a href="https://microsoft.com">Microsoft</a></h4></p>
+            <span><b>Windows Serviceability team.</b> Responsible for graphics drivers, D3D components, XAML/WPF components</span>
+        </div>
+
+        <div class="section">
+            <p><b>2004 - 2006</b></p>
+            <p><h4><label>SDET</label> - <a href="https://microsoft.com">Microsoft</a></h4></p>
+            <span><b>Windows Serviceability team.</b> Worked on graphics drivers.</span>
+        </div>
+
+        <div class="section">
+            <p><b>2002 - 2004</b></p>
+            <p><h4><label>Software Engineer</label> - <a href="https://tikle.com">Tikle</a></h4></p>
+            <span>ASP.NET (classic) Web Services. J2ME/C++ apps and games for mobile.</span>
+        </div>
+
 
         <h3>Education</h3>
 
         <div class="section">
-          <p>1999-2003</p>
+          <p><b>1999 - 2003</b></p>
+          <p><h4><label>BS, Computer Science and Engineering</label> - <a href="https://isikun.edu.tr">Isik University</a></h4></p>
+          <p>Interned at <a href="https://sadecehosting.com">SadeceHosting</a>
+            (designed and implemented various PHP services) and
+            <a href="https://ntv.com.tr">NTV</a> (designed an implemented an ASP.NET classic intranet site).
+            Thesis was on Computer Graphics.</p>
         </div>
 
         <h3>Technical skills</h3>
+
         <div class="section">
           <span> ... </span>
         </div>
 
         <h3>Personal projects</h3>
+
         <div class="section">
           <span> ... </span>
         </div>
+
       </div>
     </div>
   </body>
